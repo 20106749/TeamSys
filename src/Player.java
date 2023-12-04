@@ -26,4 +26,12 @@ public class Player {
             this.playerNumber = playerNumber;
         }
     }
+/*
+    // ratings
+    private int[] ratings = new int[6];
+
+    public void setPlayerRatings(int[] ratings) {
+        this.ratings = ratings;
+    }
+*/
 }
