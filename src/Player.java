@@ -34,4 +34,14 @@ public class Player {
         this.ratings = ratings;
     }
 */
+    // currentSquadMember
+    private boolean currentSquadMember;
+
+    public void setCurrentSquadMember(boolean currentSquadMember) {
+        this.currentSquadMember = currentSquadMember;
+    }
+
+    public boolean isCurrentSquadMember() {
+        return currentSquadMember;
+    }
 }

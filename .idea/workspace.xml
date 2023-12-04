@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - playerNumber&#10;==================================================&#10;+ playerNumber&#10;+ getPlayerNumber()&#10;+ setPlayerNumber()">
+    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - ratings&#10;==================================================&#10;+ ratings&#10;+ setPlayerRatings()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
@@ -52,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701689143634</updated>
-      <workItem from="1701689144629" duration="4204000" />
+      <workItem from="1701689144629" duration="6214000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;.gitignore&#10;misc.xml&#10;modules.xml&#10;TeamSys.iml&#10;vcs.xml&#10;workspace.xml">
       <option name="closed" value="true" />
@@ -94,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701691321509</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - ratings&#10;==================================================&#10;+ ratings&#10;+ setPlayerRatings()">
+      <option name="closed" value="true" />
+      <created>1701695314236</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701695314236</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +126,7 @@
     <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ Player.java" />
     <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - name&#10;==================================================&#10;+ name&#10;+ getName()&#10;+ setName()" />
     <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - playerNumber&#10;==================================================&#10;+ playerNumber&#10;+ getPlayerNumber()&#10;+ setPlayerNumber()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - playerNumber&#10;==================================================&#10;+ playerNumber&#10;+ getPlayerNumber()&#10;+ setPlayerNumber()" />
+    <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - ratings&#10;==================================================&#10;+ ratings&#10;+ setPlayerRatings()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - ratings&#10;==================================================&#10;+ ratings&#10;+ setPlayerRatings()" />
   </component>
 </project>
