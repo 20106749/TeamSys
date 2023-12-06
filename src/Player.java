@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Player {
     // fields
@@ -20,9 +21,39 @@ public class Player {
             this.playerNumber = playerNumber;
         }
     }
-    public void setPlayerRatings(int[] ratings) {
-        this.ratings = ratings;
+
+    public void setPlayerRatings() {
+        Scanner scanner = new Scanner(System.in);
+        int[] newRatings = new int[6];
+
+        for (int i = 0; i < 6; i++) {
+            // Ask the user for input
+            System.out.print("Enter rating for index " + i + " (between 0 and 5 inclusive): ");
+
+            // Validate the input
+            while (true) {
+                String input = scanner.next();
+                try {
+                    newRatings[i] = Integer.parseInt(input);
+
+                    // Validate the input range
+                    if (newRatings[i] < 0 || newRatings[i] > 5) {
+                        System.out.println("Invalid rating value. Please enter a value between 0 and 5.");
+                        continue; // Ask the user again for a valid input
+                    }
+
+                    // Break out of the loop if the input is valid
+                    break;
+                } catch (NumberFormatException e) {
+                    System.out.println("Invalid input. Please enter an integer value.");
+                }
+            }
+        }
+
+        // Set the validated ratings to the player
+        this.ratings = newRatings;
     }
+
     public void setCurrentSquadMember(boolean currentSquadMember) {
         this.currentSquadMember = currentSquadMember;
     }
@@ -42,7 +73,7 @@ public class Player {
         for (int i = 0; i < 6; i++) {
             ratingsTotal += ratings[i];
         }
-        return ratingsTotal/6;
+        return ratingsTotal / 6;
     }
     public boolean isCurrentSquadMember() {
         return currentSquadMember;
@@ -53,7 +84,7 @@ public class Player {
         setName(name);
         setPlayerNumber(playerNumber);
         setCurrentSquadMember(currentSquadMember);
-        ratings = new int[6];
+        ratings = new int[6]; // An uninitialized int array is automatically filled with default values of 0 in each element.
     }
 
     // toString
@@ -64,5 +95,11 @@ public class Player {
                 ", ratings=" + Arrays.toString(ratings) +
                 ", currentSquadMember=" + currentSquadMember +
                 '}';
+    }
+
+    public static void main(String[] args) {
+        Player player = new Player("John", 7, true);
+        player.setPlayerRatings();
+        System.out.println(player.toString());
     }
 }

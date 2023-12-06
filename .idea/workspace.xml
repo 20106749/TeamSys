@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;grouped fields and methods">
+    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - toString&#10;==================================================&#10;+ toString()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
@@ -38,14 +38,29 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Louis/OneDrive - South East Technological University (Waterford Campus)/year1/semester1/programming-fundamentals-1/intelliJ/ShopV2.3/ShopV2.3",
+    "last_opened_file_path": "C:/Users/Louis/OneDrive - South East Technological University (Waterford Campus)/year1/semester1/programming-fundamentals-1/intelliJ/TeamSys - Copy",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Player" />
+      <module name="TeamSys" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Player" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +71,7 @@
       <updated>1701689143634</updated>
       <workItem from="1701689144629" duration="6642000" />
       <workItem from="1701767470984" duration="4301000" />
-      <workItem from="1701884100685" duration="722000" />
+      <workItem from="1701884100685" duration="4466000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;.gitignore&#10;misc.xml&#10;modules.xml&#10;TeamSys.iml&#10;vcs.xml&#10;workspace.xml">
       <option name="closed" value="true" />
@@ -154,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701883527634</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - toString&#10;==================================================&#10;+ toString()">
+      <option name="closed" value="true" />
+      <created>1701884855124</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701884855124</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +209,7 @@
     <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - ratings&#10;==================================================&#10;moved default size for ratings to constructor&#10;+ getRatings&#10;+ getAverageRating" />
     <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - ratings&#10;==================================================&#10;added missing semicolons *tsk tsk*" />
     <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;grouped fields and methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;grouped fields and methods" />
+    <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - toString&#10;==================================================&#10;+ toString()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - toString&#10;==================================================&#10;+ toString()" />
   </component>
 </project>
