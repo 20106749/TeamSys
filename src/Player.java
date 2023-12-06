@@ -10,7 +10,7 @@ public class Player {
         if (name.length() <= 20) {
             this.name = name;
         } else {
-            this.name = name.substring(0, 19);
+            this.name = name.substring(0, 20);
         }
     }
 
@@ -26,14 +26,26 @@ public class Player {
             this.playerNumber = playerNumber;
         }
     }
-/*
+
     // ratings
-    private int[] ratings = new int[6];
+    private int[] ratings;
 
     public void setPlayerRatings(int[] ratings) {
         this.ratings = ratings;
     }
-*/
+
+    public int[] getRatings() {
+        return ratings;
+    }
+
+    public int getAverageRating() {
+        int ratingsTotal = 0
+        for (int i = 0; i < 6; i++) {
+            ratingsTotal += ratings[i]
+        }
+        return ratingsTotal/6;
+    }
+
     // currentSquadMember
     private boolean currentSquadMember;
 
@@ -50,5 +62,6 @@ public class Player {
         setName(name);
         setPlayerNumber(playerNumber);
         setCurrentSquadMember(currentSquadMember);
+        ratings = new int[6];
     }
 }
