@@ -1,11 +1,11 @@
 public class Player {
-    // name
+    // fields
     private String name;
+    private int playerNumber = 23;
+    private int[] ratings;
+    private boolean currentSquadMember;
 
-    public String getName() {
-        return name;
-    }
-
+    // setters
     public void setName(String name) {
         if (name.length() <= 20) {
             this.name = name;
@@ -13,31 +13,28 @@ public class Player {
             this.name = name.substring(0, 20);
         }
     }
-
-    // playerNumber
-    private int playerNumber = 23;
-
-    public int getPlayerNumber() {
-        return playerNumber;
-    }
-
     public void setPlayerNumber(int playerNumber) {
         if (playerNumber <= 23) {
             this.playerNumber = playerNumber;
         }
     }
-
-    // ratings
-    private int[] ratings;
-
     public void setPlayerRatings(int[] ratings) {
         this.ratings = ratings;
     }
+    public void setCurrentSquadMember(boolean currentSquadMember) {
+        this.currentSquadMember = currentSquadMember;
+    }
 
+    // getters
+    public String getName() {
+        return name;
+    }
+    public int getPlayerNumber() {
+        return playerNumber;
+    }
     public int[] getRatings() {
         return ratings;
     }
-
     public int getAverageRating() {
         int ratingsTotal = 0;
         for (int i = 0; i < 6; i++) {
@@ -45,14 +42,6 @@ public class Player {
         }
         return ratingsTotal/6;
     }
-
-    // currentSquadMember
-    private boolean currentSquadMember;
-
-    public void setCurrentSquadMember(boolean currentSquadMember) {
-        this.currentSquadMember = currentSquadMember;
-    }
-
     public boolean isCurrentSquadMember() {
         return currentSquadMember;
     }
