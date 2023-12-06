@@ -44,4 +44,11 @@ public class Player {
     public boolean isCurrentSquadMember() {
         return currentSquadMember;
     }
+
+    // constructor
+    public Player(String name, int playerNumber, boolean currentSquadMember) {
+        setName(name);
+        setPlayerNumber(playerNumber);
+        setCurrentSquadMember(currentSquadMember);
+    }
 }
