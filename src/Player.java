@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Player {
     // fields
     private String name;
@@ -52,5 +54,15 @@ public class Player {
         setPlayerNumber(playerNumber);
         setCurrentSquadMember(currentSquadMember);
         ratings = new int[6];
+    }
+
+    // toString
+    public String toString() {
+        return "Player{" +
+                "name='" + name + '\'' +
+                ", playerNumber=" + playerNumber +
+                ", ratings=" + Arrays.toString(ratings) +
+                ", currentSquadMember=" + currentSquadMember +
+                '}';
     }
 }

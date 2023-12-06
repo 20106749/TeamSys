@@ -37,6 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Louis/OneDrive - South East Technological University (Waterford Campus)/year1/semester1/programming-fundamentals-1/intelliJ/ShopV2.3/ShopV2.3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -55,6 +56,7 @@
       <updated>1701689143634</updated>
       <workItem from="1701689144629" duration="6642000" />
       <workItem from="1701767470984" duration="4301000" />
+      <workItem from="1701884100685" duration="722000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;.gitignore&#10;misc.xml&#10;modules.xml&#10;TeamSys.iml&#10;vcs.xml&#10;workspace.xml">
       <option name="closed" value="true" />
