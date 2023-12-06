@@ -39,9 +39,9 @@ public class Player {
     }
 
     public int getAverageRating() {
-        int ratingsTotal = 0
+        int ratingsTotal = 0;
         for (int i = 0; i < 6; i++) {
-            ratingsTotal += ratings[i]
+            ratingsTotal += ratings[i];
         }
         return ratingsTotal/6;
     }
