@@ -2,21 +2,25 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Player {
-    // fields
+    // -=+=- Fields -=+=-
     private String name;
     private int playerNumber = 23;
     private int[] ratings;
     private boolean currentSquadMember;
 
-    // setters
+    // -=+=- Setters -=+=-
     public void setName(String name) {
+        // Ensure the name does not exceed 20 characters
         if (name.length() <= 20) {
             this.name = name;
         } else {
+            // If longer than 20 characters, truncate it
             this.name = name.substring(0, 20);
         }
     }
+
     public void setPlayerNumber(int playerNumber) {
+        // Ensure player number is not greater than 23
         if (playerNumber <= 23) {
             this.playerNumber = playerNumber;
         }
@@ -55,40 +59,48 @@ public class Player {
     }
 
     public void setCurrentSquadMember(boolean currentSquadMember) {
+        // Set whether the player is a current squad member
         this.currentSquadMember = currentSquadMember;
     }
 
-    // getters
+    // -=+=- Getters -=+=-
     public String getName() {
         return name;
     }
+
     public int getPlayerNumber() {
         return playerNumber;
     }
+
     public int[] getRatings() {
         return ratings;
     }
+
     public int getAverageRating() {
+        // Calculate and return the average rating
         int ratingsTotal = 0;
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < ratings.length; i++) {
             ratingsTotal += ratings[i];
         }
         return ratingsTotal / 6;
     }
+
     public boolean isCurrentSquadMember() {
         return currentSquadMember;
     }
 
-    // constructor
+    // -=+=- Constructor -=+=-
     public Player(String name, int playerNumber, boolean currentSquadMember) {
+        // Initialize player properties
         setName(name);
         setPlayerNumber(playerNumber);
         setCurrentSquadMember(currentSquadMember);
         ratings = new int[6]; // An uninitialized int array is automatically filled with default values of 0 in each element.
     }
 
-    // toString
+    // -=+=- toString -=+=-
     public String toString() {
+        // Return a string representation of the player
         return "Player{" +
                 "name='" + name + '\'' +
                 ", playerNumber=" + playerNumber +
@@ -97,7 +109,9 @@ public class Player {
                 '}';
     }
 
+    // -=+=- Main method for testing -=+=-
     public static void main(String[] args) {
+        // Create a player, set ratings, and print the player details
         Player player = new Player("John", 7, true);
         player.setPlayerRatings();
         System.out.println(player.toString());

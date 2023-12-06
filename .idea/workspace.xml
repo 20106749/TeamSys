@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - toString&#10;==================================================&#10;+ toString()">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-    </list>
+    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ comments + tidying&#10;[ChatGPT helped here]" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -43,7 +41,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "project.propDebugger",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -72,6 +70,7 @@
       <workItem from="1701689144629" duration="6642000" />
       <workItem from="1701767470984" duration="4301000" />
       <workItem from="1701884100685" duration="4466000" />
+      <workItem from="1701891103831" duration="1609000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;.gitignore&#10;misc.xml&#10;modules.xml&#10;TeamSys.iml&#10;vcs.xml&#10;workspace.xml">
       <option name="closed" value="true" />
@@ -177,7 +176,47 @@
       <option name="project" value="LOCAL" />
       <updated>1701884855124</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - setPlayerRatings&#10;==================================================&#10;+ validation in the setPlayerRatings method&#10;+ main method for testing code">
+      <option name="closed" value="true" />
+      <created>1701891374075</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701891374075</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - setPlayerRatings&#10;==================================================&#10;+ validation in the setPlayerRatings method&#10;+ main method for testing code&#10;[ChatGPT helped here]">
+      <option name="closed" value="true" />
+      <created>1701891395147</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701891395147</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ comments + tidying&#10;[ChatGPT helped here]">
+      <option name="closed" value="true" />
+      <created>1701892244222</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1701892244222</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ comments + tidying&#10;[ChatGPT helped here]">
+      <option name="closed" value="true" />
+      <created>1701892449646</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1701892449646</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ comments + tidying&#10;[ChatGPT helped here]">
+      <option name="closed" value="true" />
+      <created>1701892653437</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1701892653437</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +249,13 @@
     <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - ratings&#10;==================================================&#10;added missing semicolons *tsk tsk*" />
     <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;grouped fields and methods" />
     <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - toString&#10;==================================================&#10;+ toString()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - toString&#10;==================================================&#10;+ toString()" />
+    <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - setPlayerRatings&#10;==================================================&#10;+ validation in the setPlayerRatings method&#10;+ main method for testing code" />
+    <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - setPlayerRatings&#10;==================================================&#10;+ validation in the setPlayerRatings method&#10;+ main method for testing code&#10;[ChatGPT helped here]" />
+    <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ comments + tidying&#10;[ChatGPT helped here]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ comments + tidying&#10;[ChatGPT helped here]" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
