@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ comments + tidying&#10;[ChatGPT helped here]" />
+    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ comments + tidying&#10;[ChatGPT helped here]">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamSys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TeamSys.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +36,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -41,7 +49,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propDebugger",
+    "settings.editor.selected.configurable": "editor.preferences.folding",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,7 +78,8 @@
       <workItem from="1701689144629" duration="6642000" />
       <workItem from="1701767470984" duration="4301000" />
       <workItem from="1701884100685" duration="4466000" />
-      <workItem from="1701891103831" duration="1609000" />
+      <workItem from="1701891103831" duration="5076000" />
+      <workItem from="1701938550438" duration="922000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;.gitignore&#10;misc.xml&#10;modules.xml&#10;TeamSys.iml&#10;vcs.xml&#10;workspace.xml">
       <option name="closed" value="true" />
@@ -216,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701892653437</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ comments + tidying&#10;[ChatGPT helped here]">
+      <option name="closed" value="true" />
+      <created>1701892732792</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1701892732792</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +270,22 @@
     <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - setPlayerRatings&#10;==================================================&#10;+ validation in the setPlayerRatings method&#10;+ main method for testing code&#10;[ChatGPT helped here]" />
     <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ comments + tidying&#10;[ChatGPT helped here]" />
     <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ comments + tidying&#10;[ChatGPT helped here]" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Player.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Player.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
