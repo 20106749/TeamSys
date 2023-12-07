@@ -80,7 +80,7 @@ public class Player {
         return ratings;
     }
 
-    public int getAverageRating() {
+    public float getAverageRating() {
         // Calculate and return the average rating
         int ratingsTotal = 0;
         for (int i = 0; i < ratings.length; i++) {
@@ -114,7 +114,7 @@ public class Player {
                 ", currentSquadMember=" + currentSquadMember +
                 '}';
     }
-
+/*
     // -=+=- Main method for testing -=+=-
     public static void main(String[] args) {
         // Create a player, set ratings, and print the player details
@@ -122,5 +122,8 @@ public class Player {
         player.setPlayerRatings();
         System.out.println(player);
     }
-
+*/
+    public boolean equals(Object obj) {
+        return (this == obj);
+    }
 }

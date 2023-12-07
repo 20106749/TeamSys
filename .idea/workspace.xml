@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Team - players&#10;==================================================&#10;+ Player[]&#10;+ getPlayers()&#10;+ setPlayers()">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Team&#10;==================================================&#10;+">
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -79,7 +80,7 @@
       <workItem from="1701767470984" duration="4301000" />
       <workItem from="1701884100685" duration="4466000" />
       <workItem from="1701891103831" duration="5076000" />
-      <workItem from="1701938550438" duration="8808000" />
+      <workItem from="1701938550438" duration="10391000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;.gitignore&#10;misc.xml&#10;modules.xml&#10;TeamSys.iml&#10;vcs.xml&#10;workspace.xml">
       <option name="closed" value="true" />
@@ -289,7 +290,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701947978834</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Team - players&#10;==================================================&#10;+ Player[]&#10;+ getPlayers()&#10;+ setPlayers() //doesnt work yet">
+      <option name="closed" value="true" />
+      <created>1701963162301</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1701963162301</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;added TODO">
+      <option name="closed" value="true" />
+      <created>1701963190768</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1701963190768</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +324,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;Player.java" />
     <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;.gitignore&#10;misc.xml&#10;modules.xml&#10;TeamSys.iml&#10;vcs.xml&#10;workspace.xml" />
     <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;+ .gitignore&#10;+ misc.xml&#10;+ modules.xml&#10;+ TeamSys.iml&#10;+ vcs.xml&#10;+ workspace.xml" />
     <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ Player.java" />
@@ -331,16 +347,13 @@
     <MESSAGE value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;removed test" />
     <MESSAGE value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Player&#10;==================================================" />
     <MESSAGE value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Team&#10;==================================================&#10;+ Team.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Team&#10;==================================================&#10;+ Team.java" />
+    <MESSAGE value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Team - players&#10;==================================================&#10;+ Player[]&#10;+ getPlayers()&#10;+ setPlayers() //doesnt work yet" />
+    <MESSAGE value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;added TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;added TODO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Player.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Team.java</url>
           <line>7</line>
@@ -349,6 +362,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Player.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
