@@ -2,11 +2,13 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Player {
+
     // -=+=- Fields -=+=-
     private String name;
     private int playerNumber = 23;
     private int[] ratings;
     private boolean currentSquadMember;
+
 
     // -=+=- Setters -=+=-
     public void setName(String name) {
@@ -64,6 +66,7 @@ public class Player {
         this.currentSquadMember = currentSquadMember;
     }
 
+
     // -=+=- Getters -=+=-
     public String getName() {
         return name;
@@ -90,6 +93,7 @@ public class Player {
         return currentSquadMember;
     }
 
+
     // -=+=- Constructor -=+=-
     public Player(String name, int playerNumber, boolean currentSquadMember) {
         // Initialize player properties
@@ -98,6 +102,7 @@ public class Player {
         setCurrentSquadMember(currentSquadMember);
         ratings = new int[6]; // An uninitialized int array is automatically filled with default values of 0 in each element.
     }
+
 
     // -=+=- toString -=+=-
     public String toString() {
@@ -109,6 +114,7 @@ public class Player {
                 ", currentSquadMember=" + currentSquadMember +
                 '}';
     }
+
 /*
     // -=+=- Main method for testing -=+=-
     public static void main(String[] args) {
@@ -117,4 +123,5 @@ public class Player {
         player.setPlayerRatings();
         System.out.println(player);
     }*/
+
 }
