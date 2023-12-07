@@ -109,12 +109,12 @@ public class Player {
                 ", currentSquadMember=" + currentSquadMember +
                 '}';
     }
-
+/*
     // -=+=- Main method for testing -=+=-
     public static void main(String[] args) {
         // Create a player, set ratings, and print the player details
         Player player = new Player("John", 7, true);
         player.setPlayerRatings();
         System.out.println(player);
-    }
+    }*/
 }
