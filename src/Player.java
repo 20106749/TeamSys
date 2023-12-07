@@ -29,9 +29,10 @@ public class Player {
     public void setPlayerRatings() {
         Scanner scanner = new Scanner(System.in);
         int[] newRatings = new int[6];
-        int i = 0;
-        while (i < 6) {
+
+        for (int i = 0; i < 6; i++) {
             // Ask the user for input
+            // System.out.print("Enter rating for index " + i + " (between 0 and 5 inclusive): ");
             System.out.print("Enter rating " + (i+1) + " (between 0 and 5 inclusive): ");
 
             // Validate the input
@@ -52,7 +53,6 @@ public class Player {
                     System.out.println("Invalid input. Please enter an integer value.");
                 }
             }
-            i++; // Increment only if valid input.
         }
 
         // Set the validated ratings to the player
