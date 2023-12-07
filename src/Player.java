@@ -27,7 +27,7 @@ public class Player {
             this.playerNumber = playerNumber;
         }
     }
-
+// TODO: 07/12/2023 move the scanner input from setPlayerRatings to Driver
     public void setPlayerRatings() {
         Scanner scanner = new Scanner(System.in);
         int[] newRatings = new int[6];
