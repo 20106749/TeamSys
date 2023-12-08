@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Player {
@@ -105,6 +106,7 @@ public class Player {
 
 
     // -=+=- toString -=+=-
+    @Override
     public String toString() {
         // Return a string representation of the player
         return "Player{" +
@@ -123,7 +125,17 @@ public class Player {
         System.out.println(player);
     }
 */
-    public boolean equals(Object obj) {
-        return (this == obj);
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Player player)) return false;
+        return getPlayerNumber() == player.getPlayerNumber() && isCurrentSquadMember() == player.isCurrentSquadMember() && Objects.equals(getName(), player.getName()) && Arrays.equals(getRatings(), player.getRatings());
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(getName(), getPlayerNumber(), isCurrentSquadMember());
+        result = 31 * result + Arrays.hashCode(getRatings());
+        return result;
     }
 }

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Team&#10;==================================================&#10;+">
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys&#10;==================================================&#10;Player - fix equals()&#10;Team - add constructor&#10;Team - make setplayers() ?&#10;Team - add equals()&#10;Team - add boilerplate for all other methods">
+      <change beforePath="$PROJECT_DIR$/src/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -45,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Louis/OneDrive - South East Technological University (Waterford Campus)/year1/semester1/programming-fundamentals-1/intelliJ/TeamSys - Copy",
+    "last_opened_file_path": "C:/Users/Louis/OneDrive - South East Technological University (Waterford Campus)/year1/semester1/programming-fundamentals-1/intelliJ/TeamSys",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,7 +80,8 @@
       <workItem from="1701767470984" duration="4301000" />
       <workItem from="1701884100685" duration="4466000" />
       <workItem from="1701891103831" duration="5076000" />
-      <workItem from="1701938550438" duration="10391000" />
+      <workItem from="1701938550438" duration="12544000" />
+      <workItem from="1701967106567" duration="3196000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;.gitignore&#10;misc.xml&#10;modules.xml&#10;TeamSys.iml&#10;vcs.xml&#10;workspace.xml">
       <option name="closed" value="true" />
@@ -306,7 +307,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701963190768</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ equals()&#10;fix getAverageRating from int to float">
+      <option name="closed" value="true" />
+      <created>1701964920660</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1701964920660</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys&#10;==================================================&#10;Player - fix equals()&#10;Team - add constructor&#10;Team - make setplayers() ?&#10;Team - add equals()&#10;Team - add boilerplate for all other methods">
+      <option name="closed" value="true" />
+      <created>1702024387986</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1702024387986</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,8 +341,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;.gitignore&#10;misc.xml&#10;modules.xml&#10;TeamSys.iml&#10;vcs.xml&#10;workspace.xml" />
-    <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;+ .gitignore&#10;+ misc.xml&#10;+ modules.xml&#10;+ TeamSys.iml&#10;+ vcs.xml&#10;+ workspace.xml" />
     <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ Player.java" />
     <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - name&#10;==================================================&#10;+ name&#10;+ getName()&#10;+ setName()" />
     <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - playerNumber&#10;==================================================&#10;+ playerNumber&#10;+ getPlayerNumber()&#10;+ setPlayerNumber()" />
@@ -349,23 +364,16 @@
     <MESSAGE value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Team&#10;==================================================&#10;+ Team.java" />
     <MESSAGE value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Team - players&#10;==================================================&#10;+ Player[]&#10;+ getPlayers()&#10;+ setPlayers() //doesnt work yet" />
     <MESSAGE value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;added TODO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;added TODO" />
+    <MESSAGE value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ equals()&#10;fix getAverageRating from int to float" />
+    <MESSAGE value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys&#10;==================================================&#10;Player - fix equals()&#10;Team - add constructor&#10;Team - make setplayers() ?&#10;Team - add equals()&#10;Team - add boilerplate for all other methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys&#10;==================================================&#10;Player - fix equals()&#10;Team - add constructor&#10;Team - make setplayers() ?&#10;Team - add equals()&#10;Team - add boilerplate for all other methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Team.java</url>
-          <line>7</line>
-          <properties class="Team" method="setPlayers">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Player.java</url>
-          <line>29</line>
+          <line>30</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
