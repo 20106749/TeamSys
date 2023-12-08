@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-08&#10;==================================================&#10;TeamSys&#10;==================================================">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Team.java" afterDir="false" />
-    </list>
+    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-08&#10;==================================================&#10;TeamSys&#10;==================================================" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +92,7 @@
       <workItem from="1702027786661" duration="2959000" />
       <workItem from="1702038147642" duration="4220000" />
       <workItem from="1702047438273" duration="1076000" />
-      <workItem from="1702048673107" duration="409000" />
+      <workItem from="1702048673107" duration="589000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;.gitignore&#10;misc.xml&#10;modules.xml&#10;TeamSys.iml&#10;vcs.xml&#10;workspace.xml">
       <option name="closed" value="true" />
@@ -354,7 +350,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702025627392</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Assignment 2 - 2023-12-08&#10;==================================================&#10;TeamSys&#10;==================================================">
+      <option name="closed" value="true" />
+      <created>1702049249816</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1702049249816</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
