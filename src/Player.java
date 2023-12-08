@@ -83,7 +83,7 @@ public class Player {
 
     public float getAverageRating() {
         // Calculate and return the average rating
-        int ratingsTotal = 0;
+        float ratingsTotal = 0;
         for (int i = 0; i < ratings.length; i++) {
             ratingsTotal += ratings[i];
         }

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys&#10;==================================================&#10;Player - fix equals()&#10;Team - add constructor&#10;Team - make setplayers() ?&#10;Team - add equals()&#10;Team - add boilerplate for all other methods">
+    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-08&#10;==================================================&#10;TeamSys&#10;==================================================">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,12 +47,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Louis/OneDrive - South East Technological University (Waterford Campus)/year1/semester1/programming-fundamentals-1/intelliJ/TeamSys",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.folding",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.updates",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,6 +72,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,7 +92,11 @@
       <workItem from="1701884100685" duration="4466000" />
       <workItem from="1701891103831" duration="5076000" />
       <workItem from="1701938550438" duration="12544000" />
-      <workItem from="1701967106567" duration="3196000" />
+      <workItem from="1701967106567" duration="5856000" />
+      <workItem from="1702027786661" duration="2959000" />
+      <workItem from="1702038147642" duration="4220000" />
+      <workItem from="1702047438273" duration="1076000" />
+      <workItem from="1702048673107" duration="409000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;.gitignore&#10;misc.xml&#10;modules.xml&#10;TeamSys.iml&#10;vcs.xml&#10;workspace.xml">
       <option name="closed" value="true" />
@@ -323,7 +338,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702024387986</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys&#10;==================================================&#10;Player - fix equals()&#10;Team - add constructor&#10;Team - make setplayers() ?&#10;Team - add equals()&#10;Team - add boilerplate for all other methods">
+      <option name="closed" value="true" />
+      <created>1702024453867</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1702024453867</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Assignment 2 - 2023-12-08&#10;==================================================&#10;TeamSys&#10;==================================================&#10;Player - fix equals()&#10;Team - add constructor&#10;Team - make setplayers() ?&#10;Team - add equals()&#10;Team - add boilerplate for all other methods">
+      <option name="closed" value="true" />
+      <created>1702025627392</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702025627392</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,8 +372,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ Player.java" />
-    <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - name&#10;==================================================&#10;+ name&#10;+ getName()&#10;+ setName()" />
     <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - playerNumber&#10;==================================================&#10;+ playerNumber&#10;+ getPlayerNumber()&#10;+ setPlayerNumber()" />
     <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - ratings&#10;==================================================&#10;+ ratings&#10;+ setPlayerRatings()" />
     <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - currentSquadMember&#10;==================================================&#10;+ currentSquadMember&#10;+ setCurrentSquadMember()&#10;+ isCurrentSquadMember" />
@@ -366,7 +395,9 @@
     <MESSAGE value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;added TODO" />
     <MESSAGE value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;+ equals()&#10;fix getAverageRating from int to float" />
     <MESSAGE value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys&#10;==================================================&#10;Player - fix equals()&#10;Team - add constructor&#10;Team - make setplayers() ?&#10;Team - add equals()&#10;Team - add boilerplate for all other methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-07&#10;==================================================&#10;TeamSys&#10;==================================================&#10;Player - fix equals()&#10;Team - add constructor&#10;Team - make setplayers() ?&#10;Team - add equals()&#10;Team - add boilerplate for all other methods" />
+    <MESSAGE value="Assignment 2 - 2023-12-08&#10;==================================================&#10;TeamSys&#10;==================================================&#10;Player - fix equals()&#10;Team - add constructor&#10;Team - make setplayers() ?&#10;Team - add equals()&#10;Team - add boilerplate for all other methods" />
+    <MESSAGE value="Assignment 2 - 2023-12-08&#10;==================================================&#10;TeamSys&#10;==================================================" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-08&#10;==================================================&#10;TeamSys&#10;==================================================" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -375,6 +406,15 @@
           <url>file://$PROJECT_DIR$/src/Player.java</url>
           <line>30</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Team.java</url>
+          <line>76</line>
+          <properties class="Team" method="getPlayer">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
