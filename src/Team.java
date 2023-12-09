@@ -75,9 +75,9 @@ public class Team {
         return highPlay;
     }
     public Player getPlayer(int index) {
-        if(index >=0 && index < total)
+        if(index >= 0 && index < total)
             return players[index];
-        return null; } // int for? is it for the index of the player?
+        return null; } // int for? is it for the index of the player? // yep, if theres a player at "index" return that player, else return null
     public boolean add(Player player) {
         if (isFull()) {
             return false;
@@ -99,7 +99,7 @@ public class Team {
                 if (players[i].isCurrentSquadMember())
                     listOfPlayers += i + ": " + players[i] + "\n";
             }
-            if (listOfPlayers.equals("")){
+            if (listOfPlayers.isEmpty()){
                 return "No players are in our current squad";
             }
             else{
@@ -140,11 +140,27 @@ public class Team {
         return total == players.length;
     }
     public String listPlayersAboveGivenAverageRating(double averageRating) {
+        if (isEmpty()) {
+            return "No players on the team";
+        } else {
+            String listOfPlayers = "";
+            for (int i = 0; i < total; i++) {
+                if (players[i].getAverageRating() > averageRating)
+                    listOfPlayers += i + ": " + players[i] + "\n";
+            }
+            if (listOfPlayers.isEmpty()){
+                return "No players averageRating above given averageRating";
+            }
+            else{
+                return listOfPlayers;
+            }
+        }
+    }/*{
         Player[] above = new Player[total];
 
 
         return Arrays.toString(above);
-    }
+    }*/
     public Player playerWithLowestAverageRating() {
         double lowest = Integer.MAX_VALUE;
         Player lowPlay = null;
