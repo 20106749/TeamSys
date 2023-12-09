@@ -2,11 +2,21 @@ import java.util.Arrays;
 import java.util.Objects;
 
 public class Team {
-    private Player[] players;
-    private int total;
 
     public Team(int numPlayers) {
         players = new Player[numPlayers];
+    }
+    // -=+=- Fields -=+=-
+    private Player[] players;
+    private int total = 0;
+
+    // -=+=- Team Size -=+=-
+    private boolean isEmpty() {
+        return total == 0;
+    }
+
+    private boolean isFull() {
+        return total == players.length;
     }
 
     // -=+=- Getters and Setters -=+=-
@@ -20,15 +30,6 @@ public class Team {
 
     public int getTotal() { // also kina part of -=+=- Team Size -=+=-
         return total;
-    }
-
-    // -=+=- Team Size -=+=-
-    public boolean isEmpty() {
-        return total == 0;
-    }
-
-    public boolean isFull() {
-        return total == players.length;
     }
 
     // -=+=- Player Operations -=+=-
@@ -67,7 +68,7 @@ public class Team {
         } else {
             String listOfPlayers = "";
             for (int i = 0; i < total; i++) {
-                listOfPlayers += i + ": " + players[i].toString() + "\n";
+                listOfPlayers += i + ": " + players[i] + "\n";
             }
             return listOfPlayers;
         }
@@ -97,7 +98,7 @@ public class Team {
             String listOfPlayers = "";
             for (int i = 0; i < total; i++) {
                 if (players[i].getAverageRating() > averageRating)
-                    listOfPlayers += i + ": " + players[i] + "\n";
+                    listOfPlayers += i + ": " + players[i] + " " + players[i].getAverageRating() + "\n";
             }
             if (listOfPlayers.isEmpty()) {
                 return "No players averageRating above given averageRating";

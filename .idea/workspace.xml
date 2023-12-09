@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Team&#10;==================================================&#10;moved around">
+    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;removed test code&#10;TODO - move input to driver">
+      <change afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,27 +37,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Louis/OneDrive - South East Technological University (Waterford Campus)/year1/semester1/programming-fundamentals-1/intelliJ/TeamSys&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Louis/OneDrive - South East Technological University (Waterford Campus)/year1/semester1/programming-fundamentals-1/intelliJ/TeamSys",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Player" />
@@ -96,7 +98,7 @@
       <workItem from="1702038147642" duration="4220000" />
       <workItem from="1702047438273" duration="1076000" />
       <workItem from="1702048673107" duration="2200000" />
-      <workItem from="1702145390039" duration="3655000" />
+      <workItem from="1702145390039" duration="6706000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;.gitignore&#10;misc.xml&#10;modules.xml&#10;TeamSys.iml&#10;vcs.xml&#10;workspace.xml">
       <option name="closed" value="true" />
@@ -386,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702149208530</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;removed test code&#10;TODO - move input to driver">
+      <option name="closed" value="true" />
+      <created>1702151612925</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1702151612925</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - currentSquadMember&#10;==================================================&#10;+ currentSquadMember&#10;+ setCurrentSquadMember()&#10;+ isCurrentSquadMember" />
     <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - ratings&#10;==================================================&#10;moved default size for ratings to constructor&#10;+ getRatings&#10;+ getAverageRating" />
     <MESSAGE value="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys - Player - Player&#10;==================================================&#10;+ Player&#10;__________________________________________________&#10;added Player constructor" />
     <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - Player&#10;==================================================&#10;+ Player&#10;__________________________________________________&#10;added Player constructor" />
@@ -429,7 +438,8 @@
     <MESSAGE value="Assignment 2 - 2023-12-08&#10;==================================================&#10;TeamSys&#10;==================================================" />
     <MESSAGE value="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Team&#10;==================================================&#10;finished up, i think" />
     <MESSAGE value="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Team&#10;==================================================&#10;moved around" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Team&#10;==================================================&#10;moved around" />
+    <MESSAGE value="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;removed test code&#10;TODO - move input to driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;removed test code&#10;TODO - move input to driver" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
