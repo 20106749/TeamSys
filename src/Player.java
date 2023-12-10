@@ -3,6 +3,16 @@ import java.util.Objects;
 
 public class Player {
 
+    // -=+=- Constructor -=+=-
+    public Player(String name, int playerNumber, boolean currentSquadMember) {
+        // Initialize player properties
+        setName(name);
+        setPlayerNumber(playerNumber);
+        setCurrentSquadMember(currentSquadMember);
+        ratings = new int[6]; // An uninitialized int array is automatically filled with default values of 0 in each element.
+    }
+
+
     // -=+=- Fields -=+=-
     private String name;
     private int playerNumber = 23;
@@ -27,36 +37,8 @@ public class Player {
             this.playerNumber = playerNumber;
         }
     }
-// TODO: 07/12/2023 move the scanner input from setPlayerRatings to Driver
-    public void setPlayerRatings() {
-        Scanner scanner = new Scanner(System.in);
-        int[] newRatings = new int[6];
-
-        for (int i = 0; i < 6; i++) {
-            // Ask the user for input
-            // System.out.print("Enter rating for index " + i + " (between 0 and 5 inclusive): ");
-            System.out.print("Enter rating " + (i+1) + " (between 0 and 5 inclusive): ");
-
-            // Validate the input
-            while (true) {
-                String input = scanner.next();
-                try {
-                    newRatings[i] = Integer.parseInt(input);
-
-                    // Validate the input range
-                    if (newRatings[i] < 0 || newRatings[i] > 5) {
-                        System.out.println("Invalid rating value. Please enter a value between 0 and 5.");
-                        continue; // Ask the user again for a valid input
-                    }
-
-                    // Break out of the loop if the input is valid
-                    break;
-                } catch (NumberFormatException e) {
-                    System.out.println("Invalid input. Please enter an integer value.");
-                }
-            }
-        }
-
+// TODO: 07/12/2023 move the scanner input from setPlayerRatings to Driver // COMPLETE
+    public void setPlayerRatings(int[] newRatings) {
         // Set the validated ratings to the player
         this.ratings = newRatings;
     }
@@ -94,17 +76,7 @@ public class Player {
     }
 
 
-    // -=+=- Constructor -=+=-
-    public Player(String name, int playerNumber, boolean currentSquadMember) {
-        // Initialize player properties
-        setName(name);
-        setPlayerNumber(playerNumber);
-        setCurrentSquadMember(currentSquadMember);
-        ratings = new int[6]; // An uninitialized int array is automatically filled with default values of 0 in each element.
-    }
-
-
-    // -=+=- toString -=+=-
+    // -=+=- Overrides -=+=-
     @Override
     public String toString() {
         // Return a string representation of the player

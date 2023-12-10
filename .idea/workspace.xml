@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Driver&#10;==================================================&#10;+ Driver.java">
+    <list default="true" id="20356248-3cf0-4396-b123-bbad9ff265b3" name="Changes" comment="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Driver&#10;==================================================&#10;+ main&#10;+ Scanner input&#10;+ team&#10;+ runMenu() //not working yet&#10;&#10;+ list of TODO">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Driver.executor": "Debug",
+    "Attach to process.pid 11720.executor": "ProcessAttachDebug",
+    "Attach to process.pid 2632.executor": "ProcessAttachDebug",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "true",
     "Repository.Attach.JavaDocs": "true",
@@ -58,8 +64,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Player" />
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="TeamSys" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,7 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Player" />
+        <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +102,7 @@
       <workItem from="1702038147642" duration="4220000" />
       <workItem from="1702047438273" duration="1076000" />
       <workItem from="1702048673107" duration="2200000" />
-      <workItem from="1702145390039" duration="7138000" />
+      <workItem from="1702145390039" duration="12094000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 2 - 2023-12-04&#10;==================================================&#10;TeamSys&#10;==================================================&#10;.gitignore&#10;misc.xml&#10;modules.xml&#10;TeamSys.iml&#10;vcs.xml&#10;workspace.xml">
       <option name="closed" value="true" />
@@ -410,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702155228840</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Driver&#10;==================================================&#10;+ main&#10;+ Scanner input&#10;+ team&#10;+ runMenu() //not working yet&#10;&#10;+ list of TODO">
+      <option name="closed" value="true" />
+      <created>1702155296616</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1702155296616</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +442,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - Player&#10;==================================================&#10;+ Player&#10;__________________________________________________&#10;added Player constructor" />
     <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - ratings&#10;==================================================&#10;moved default size for ratings to constructor&#10;+ getRatings&#10;+ getAverageRating" />
     <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player - ratings&#10;==================================================&#10;added missing semicolons *tsk tsk*" />
     <MESSAGE value="Assignment 2 - 2023-12-06&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;grouped fields and methods" />
@@ -453,7 +466,8 @@
     <MESSAGE value="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Player&#10;==================================================&#10;removed test code&#10;TODO - move input to driver" />
     <MESSAGE value="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Team&#10;==================================================&#10;updated some things" />
     <MESSAGE value="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Driver&#10;==================================================&#10;+ Driver.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Driver&#10;==================================================&#10;+ Driver.java" />
+    <MESSAGE value="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Driver&#10;==================================================&#10;+ main&#10;+ Scanner input&#10;+ team&#10;+ runMenu() //not working yet&#10;&#10;+ list of TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - 2023-12-09&#10;==================================================&#10;TeamSys - Driver&#10;==================================================&#10;+ main&#10;+ Scanner input&#10;+ team&#10;+ runMenu() //not working yet&#10;&#10;+ list of TODO" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -3,12 +3,16 @@ import java.util.Objects;
 
 public class Team {
 
+    // -=+=- Constructor -=+=-
     public Team(int numPlayers) {
         players = new Player[numPlayers];
     }
+
+
     // -=+=- Fields -=+=-
     private Player[] players;
     private int total = 0;
+
 
     // -=+=- Team Size -=+=-
     private boolean isEmpty() {
@@ -18,6 +22,7 @@ public class Team {
     private boolean isFull() {
         return total == players.length;
     }
+
 
     // -=+=- Getters and Setters -=+=-
     public Player[] getPlayers() {
@@ -31,6 +36,7 @@ public class Team {
     public int getTotal() { // also kina part of -=+=- Team Size -=+=-
         return total;
     }
+
 
     // -=+=- Player Operations -=+=-
     public boolean add(Player player) {
@@ -59,6 +65,15 @@ public class Team {
         Player found = players[index];
         found.setCurrentSquadMember(false);
         return found;
+    }
+
+    public boolean addPlayerRatings(int index, int[] ratings) {
+        if(index >= 0 && index < total) {
+            Player found = players[index];
+            found.setPlayerRatings(ratings);
+            return true;
+        }
+        else return false;
     }
 
     // -=+=- Team Information -=+=-
@@ -121,6 +136,7 @@ public class Team {
         }
     }
 
+
     // -=+=- Player Statistics -=+=-
     public double averageofPlayersAvgRating() {
         double ratingsTotal = 0;
@@ -153,6 +169,7 @@ public class Team {
         }
         return lowPlay;
     }
+
 
     // -=+=- Overrides -=+=-
     @Override
