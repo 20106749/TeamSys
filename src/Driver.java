@@ -66,9 +66,9 @@ public class Driver {
 //                case 9 -> averageRatingOfAllPlayersAverageRating();
 //                case 10 -> DisplayPlayerWithTheLowestAverageRating();
 //                case 11 -> DisplayPlayerWithTheHighestAverageRating();
-                default -> System.out.println("input a real option bozo!");
+                default -> System.out.println("input not recognised, try again");
             }
-            System.out.println("\nPress enter to continnnnnnnnnn");
+            System.out.println("\nPress enter to continue");
             input.nextLine();
             input.nextLine();
 
